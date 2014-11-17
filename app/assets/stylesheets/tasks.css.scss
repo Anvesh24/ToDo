@@ -13,6 +13,10 @@ body {
   ul li {
     color: #333;
 
+    &.done span {
+      text-decoration: line-through;
+    }
+
     a {
       font-size: 0.8em;
       color: #699;
@@ -27,4 +31,20 @@ body {
   .blank {
     color: #333;
   }
+
+
+form#new_task {
+  .input {
+    display: inline;
+  }
+}
+
+// &>input {
+
+//   padding: 6px 15px;
+//   color: white;
+//   background: $primary-color;
+//   border: 2px solid $primary-color; 
+// }
+
 }

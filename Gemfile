@@ -47,3 +47,5 @@ group :development do
 end
 
 gem 'annotate'
+
+gem 'simple_form'
